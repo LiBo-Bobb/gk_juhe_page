@@ -1,0 +1,132 @@
+.App {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-bottom: 35px;
+    overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
+}
+
+.App .scopeArea {
+    height: 50px;
+    /*border: 1px solid #ECECEC;*/
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.App .scopeArea .scopeItem {
+    /*width: 33%;*/
+    height: 40px;
+    background: #ECECEC;
+    /*border: 1px solid #969696;*/
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.App .recentClick {
+    height: 44px;
+    border-top: 1px solid #ececec;
+    border-bottom: 0px solid gray;
+    background: white;
+    margin-top: -2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.imgPanel img {
+    width: 100%;
+}
+
+.App .singleScope {
+    /*height: 44px;*/
+    text-align: center;
+    width:100%;
+    background-color: #ECECEC;
+    margin-bottom: 5px;
+    overflow-x: auto;
+}
+.App .singleScope .singleScopeBox{
+    /*height: 44px;*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    overflow-x: scroll;
+    width: 880px;
+}
+
+.App .singleScope .scopeItem {
+    font-size: 14px;
+    height:44px;
+    /*line-height: 44px;*/
+    /*border:1px solid red;*/
+    float: left;
+    line-height: 44px;
+}
+.App .loadMore{
+    position: fixed;
+    left:30px;
+    right:30px;
+    top:40%;
+}
+
+.App .courseItem {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.App .courseItem .img {
+    width: 35%;
+
+}
+
+.App .courseItem .content {
+    width: 47%;
+}
+
+.App .courseItem .content .courseName {
+    font-size: 16px;
+    color: black;
+}
+
+.App .courseItem .content .coursePrice {
+    font-size: 12px;
+    color: #F57F23;
+}
+
+.App .courseItem .content .courseView {
+    font-size: 10px;
+    color: #969696;
+}
+
+.App .activedIndex {
+    color: #12B7F6;
+    border-bottom: 2px solid #12B7F6;
+}
+.App .filterCounts{
+    height: 44px;
+    text-indent:15px;
+    font-size: 12px;
+    line-height: 44px;
+    border-top:1px solid #ECECEC;
+    border-bottom:1px solid #ECECEC;
+    margin-bottom: 10px;
+}
+
+/*@media screen and (max-width: 362px) { !*当屏幕尺寸小于362px时，应用下面的CSS样式*!*/
+/*.titleBox{*/
+/*margin-left: 54px;*/
+/*}*/
+/*}*/
